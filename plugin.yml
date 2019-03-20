@@ -1,0 +1,19 @@
+name: SpawnExtra
+main: de.greenman1805.spawnextra.Main
+version: 1.0
+author: Greenman1805
+
+commands:
+  spawn:
+    description: Teleportiert dich zum Spawn
+  lobby:
+    description: Teleportiert dich zur Lobby
+    aliases: [hub, l]
+  setspawn:
+    description: Setzt den Spawn
+    
+permissions:
+  spawnextra.admin:
+    default: op
+  spawnextra.teleportdelay:
+    default: false
